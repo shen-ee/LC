@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        # Solution1
+        # Solution1 28ms
         # nums.sort()
         # if(len(nums)==1):
         #     return nums[0]
@@ -15,11 +15,11 @@ class Solution(object):
         #     i += 3
         # return nums[-1]
 
-        # Solution 2
+        # Solution 2 32ms
         # nums_pure = set(nums)
         # return (sum(nums_pure)*3 - sum(nums))/2
 
-        # Solution 3
+        # Solution 3 24ms
         x1 = 0
         x2 = 0
         for num in nums:
