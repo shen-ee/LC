@@ -38,3 +38,5 @@ list2 = [0,1,0,1,0,1,99]
 
 print(s.singleNumber(list1))
 print(s.singleNumber(list2))
+
+print(max(list1))
