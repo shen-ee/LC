@@ -29,16 +29,13 @@ class Solution(object):
                         ans.append(curnode)
                 print(history,curlevel,curnode)
             print(ans)
-                    
-
-        
 
         print(ans)
         return ans
 
 tree = [-1,0,4,2,1]
 d = 3
-tree = [-1,0,1,2,3]
-d = 2
+# tree = [-1,0,1,2,3]
+# d = 2
 s = Solution()
 s.partitionLabels(tree,d)
