@@ -22,7 +22,7 @@ class Solution(object):
                 return a[k]
             ia, ib = len(a) // 2 , len(b) // 2
             ma, mb = a[ia], b[ib]
-            print(a,b,k)
+            # print(a,b,k)
             if ia + ib < k :
                 if ma > mb:
                     return helper(a,b[ib+1:],k-ib-1)
@@ -38,8 +38,8 @@ class Solution(object):
         if l % 2 == 1:
             return helper(nums1, nums2, l // 2)
         else:
-            print(l//2,helper(nums1, nums2, l // 2))
-            print(l//2-1,helper(nums1, nums2, l // 2 - 1))
+            # print(l//2,helper(nums1, nums2, l // 2))
+            # print(l//2-1,helper(nums1, nums2, l // 2 - 1))
             return (helper(nums1, nums2, l // 2) + helper(nums1, nums2, l // 2 - 1)) / 2.   
         
 

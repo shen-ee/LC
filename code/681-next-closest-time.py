@@ -10,7 +10,7 @@ class Solution(object):
 
         def Helper():
             for i in range(3,-1,-1):
-                for j in sorted(digits):
+                for j in digits:
                     # if i == 3:
                     #     if j > time[i]:
                     #         time[i] = j

@@ -17,7 +17,7 @@ class Solution(object):
 
         # Solution 1+
         wordDict = set(wordDict)
-        maxlen = max([len(i) for i in wordDict])
+        maxlen = max([len(i) for i in wordDict]) if wordDict else 0
         dp = [False for i in range(len(s)+1)] # dp[i] means wordBreak(s[:i],wordDict)
         dp[0] = True
         for i in range(1,len(s)+1):
