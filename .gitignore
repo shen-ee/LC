@@ -5,3 +5,6 @@
 # Dynamic plugins .dll
 bin/
 .DS_Store
+*.xml
+.idea/LC.iml
+*.json
